@@ -1,0 +1,5 @@
+server:
+  port: 8080
+  runMode: debug    # gin的运行模式 debug or release
+  readTimeout: 60   #读取超时单位秒
+  writeTimeout: 60  #写入超时单位秒
