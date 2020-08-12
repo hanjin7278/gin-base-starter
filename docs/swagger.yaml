@@ -1,7 +1,6 @@
 basePath: /api/v1
 definitions:
-  gin.H:
-    additionalProperties: true
+  result.R:
     type: object
 host: localhost:8080
 info:
@@ -22,8 +21,8 @@ paths:
       description: 描述信息
       responses:
         "200":
-          description: OK
+          description: code":200,"data":null,"msg":"",time:"2020年08月11日17:58:03"}
           schema:
-            $ref: '#/definitions/gin.H'
+            $ref: '#/definitions/result.R'
       summary: 获取文章列表
 swagger: "2.0"

@@ -3,3 +3,10 @@ server:
   runMode: debug    # gin的运行模式 debug or release
   readTimeout: 60   #读取超时单位秒
   writeTimeout: 60  #写入超时单位秒
+
+mysql:
+  host: 10.211.55.19
+  port: 3306
+  username: root
+  password: 123456
+  database: blog

@@ -39,9 +39,9 @@ var doc = `{
                 "summary": "获取文章列表",
                 "responses": {
                     "200": {
-                        "description": "OK",
+                        "description": "code\":200,\"data\":null,\"msg\":\"\",time:\"2020年08月11日17:58:03\"}",
                         "schema": {
-                            "$ref": "#/definitions/gin.H"
+                            "$ref": "#/definitions/result.R"
                         }
                     }
                 }
@@ -49,9 +49,8 @@ var doc = `{
         }
     },
     "definitions": {
-        "gin.H": {
-            "type": "object",
-            "additionalProperties": true
+        "result.R": {
+            "type": "object"
         }
     }
 }`
